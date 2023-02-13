@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeView"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="Activity"  />
+    <item
+        android:id="@+id/parkView"
+        android:icon="@drawable/ic_park"
+        android:title="Park" />
+    <item
+        android:id="@+id/reservationView"
+        android:icon="@drawable/ic_rsr"
+        android:title="Reserve" />
+    <item
+        android:id="@+id/settingsView"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+</menu>
