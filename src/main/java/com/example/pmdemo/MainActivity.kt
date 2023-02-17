@@ -1,8 +1,12 @@
 package com.example.pmdemo
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.pm.rsrsdk.DummyActivity
+import com.example.pm.rsrsdk.ListView
+import com.example.pm.rsrsdk.ToasterMsg
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -20,17 +24,23 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.parkView -> {
-                    loadFragment(ParkFragment())
+                    val intent = Intent(this, ListView::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.reservationView -> {
+                    ToasterMsg.toastMessage(this,"Calling view")
+
+                    val intent = Intent(this, DummyActivity::class.java)
+                    startActivity(intent)
+
                     true
                 }
                 R.id.settingsView -> {
                     loadFragment(SettingFragment())
                     true
                 }
-                else -> {false}
+                else -> { false }
             }
         }
     }
