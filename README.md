@@ -17,4 +17,5 @@ git@github.com:abhisheshagiri/PM-demo.git
 
 4. Now, use these initialized items within the project for multiple use cases
 
-Read full here: https://parkmobileus.atlassian.net/wiki/spaces/TEAM/pages/3102769189/How+to+integrate+a+custom+UI+SDK+or+library+using+Android+Studio
+## Read full here
+https://parkmobileus.atlassian.net/wiki/spaces/TEAM/pages/3102769189/How+to+integrate+a+custom+UI+SDK+or+library+using+Android+Studio
