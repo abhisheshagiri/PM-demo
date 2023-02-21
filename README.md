@@ -21,4 +21,4 @@ git@github.com:abhisheshagiri/PM-demo.git
 https://parkmobileus.atlassian.net/wiki/spaces/TEAM/pages/3102769189/How+to+integrate+a+custom+UI+SDK+or+library+using+Android+Studio
 
 ## Demo
-![](https://github.com/abhisheshagiri/PM-demo/blob/master/src/main/res/drawable/demo.gif)
+![](https://github.com/abhisheshagiri/PM-demo/blob/master/src/main/res/drawable/demo.gif width="220")
